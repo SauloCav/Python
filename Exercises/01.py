@@ -1,4 +1,4 @@
-#Given two integer numbers return their product only if the product is greater than 1000, else return their sum.
+#Given two integer numbers return their product only if the product is greater than 1000, else return their sum
 
 num1 = int(input("Enter First Num: "))
 num2 = int(input("Enter Second Num: "))
