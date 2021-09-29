@@ -1,3 +1,3 @@
 # Python-Experiments
 
-Algumas atividades e pequenos projetos desenvolvidos em python
+Some activities and small projects developed in python
