@@ -1,4 +1,3 @@
-
 import random
 import sys
 
@@ -70,7 +69,6 @@ def computer_move():
                 move=i
                 break
     if move == -1:
-        # Otherwise, try to take one of desired places.
         for tup in moves:
             for mv in tup:
                 if move == -1 and can_move(board, computer, mv):
@@ -99,5 +97,6 @@ while space_exist():
     elif computer_move()[1]:
         result='=== You lose ! =='
         break;
+        
 print_board()
 print(result)
